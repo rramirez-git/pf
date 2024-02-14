@@ -18,6 +18,10 @@ div.contenido {
     column-count: 3;
 }
 
+div.contenido p {
+    text-align: justify;
+}
+
 #tbl-repasos {
     border-collapse: collapse;
     border: 1px solid silver;

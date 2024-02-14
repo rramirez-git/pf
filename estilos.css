@@ -18,6 +18,22 @@ div.contenido {
     column-count: 3;
 }
 
+#tbl-repasos {
+    border-collapse: collapse;
+    border: 1px solid silver;
+    empty-cells: show;
+}
+#tbl-repasos th {
+    background-color: rgb(131, 131, 131);
+}
+#tbl-repasos td, #tbl-repasos th {
+    border: 1px solid silver;
+    padding: 5px;
+}
+#tbl-repasos tr.examen {
+    background-color: silver;
+}
+
 section.bar-buttons {
     --color-oscuro: rgb(100, 100, 100);
     --color-claro: silver;

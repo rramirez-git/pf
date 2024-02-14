@@ -1,0 +1,75 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+a, a:visited, a:active, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+section.significado-conciso ol {
+    padding-inline-start: 20px;
+}
+
+div.contenido {
+    column-count: 3;
+}
+
+section.bar-buttons {
+    --color-oscuro: rgb(100, 100, 100);
+    --color-claro: silver;
+    display: table;
+    border-collapse: collapse;
+    margin: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.5em;
+}
+section.bar-buttons a {
+    display: table-cell;
+    padding: 5px;
+    background-color: var(--color-claro);
+    color: var(--color-oscuro);
+    transition-duration: 0.75s;
+    padding: 10px;
+}
+section.bar-buttons a:hover {
+    background-color: var(--color-oscuro);
+    color: var(--color-claro);
+}
+section.bar-buttons a:last-child {
+    border-radius: 0 5px 5px 0;
+}
+section.bar-buttons a:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+@media (width <= 1000px) {
+
+    div.contenido {
+        column-count: 2;
+    }
+}
+
+@media (width <= 500px) {
+
+    div.contenido {
+        column-count: 1;
+    }
+}
+
+@media print {
+
+    div.contenido {
+        column-count: 2;
+    }
+
+    section.bar-buttons {
+        display: none;
+    }
+
+}

@@ -1,0 +1,98 @@
+:root {
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    --color-borde-normal: silver;
+    --color-fondo-encabezado: #c87d0e;
+    --color-fuente-encabezado: white;
+    --color-fuente-normal: black;
+    --color-fuente-disabled: rgb(150,150,150);
+    --color-fuente-fin-semana: var(--color-fondo-encabezado);
+    --color-fuente-mes-letra: var(--color-fondo-encabezado);
+    --color-fuente-info: rgb(192, 0, 0);
+}
+
+header {
+    position: relative;
+    margin-bottom: 10px;
+}
+div#fecha-letra {
+    color: var(--color-fuente-mes-letra);
+    font-size: 40pt;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+div#logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+div#logo img {
+    width: 3.99cm;
+    height: 1.57cm;
+}
+div#info {
+    position: absolute;
+    bottom: -7px;
+    right: 2cm;
+    color: var(--color-fuente-info);
+    font-size: 8pt;
+}
+
+table#tbl-calendario {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--color-borde-normal);
+    empty-cells: show;
+}
+th.encabezado-dia {
+    background-color: var(--color-fondo-encabezado);
+    color: var(--color-fuente-encabezado);
+    border: 1px solid var(--color-fondo-encabezado);
+    font-weight: bold;
+    font-size: 16pt;
+}
+td.dia-container {
+    width: 14.28%;
+    border: 1px solid var(--color-borde-normal);
+    height: 95px;
+}
+
+span.dia-num, span.extra-notas {
+    display: block;
+    font-weight: bold;
+    font-size: 14pt;
+    padding-left: 10px;
+}
+span.dia-disabled, span.extra-notas {
+    color: var(--color-fuente-disabled);
+    font-weight: normal;
+}
+span.dia-fin-semana {
+    color: var(--color-fuente-fin-semana);
+}
+
+div.eventos {
+    height: 70px;
+    font-size: 7.5pt;
+    /*overflow: hidden;*/
+    display: flex;
+    align-items: center;
+}
+p.evento {
+    margin: 2px;
+}
+p.pg, p.cr, p.cg, p.yd {
+    color: #ff0000;
+}
+p.bmedicina, p.tarav, p.preceptos, p.vajrasatva, p.powa, p.ofrendage, p.melodiosot {
+    color: #3d5afe;
+}
+p.gema, p.pf, p.pfm {
+    color: #ff3399
+}
+p.gematsog, p.pazmundial {
+    color: #e8a202;
+}
+p.conferencia, p.retiro {
+    color: #127622;
+}

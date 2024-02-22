@@ -1,0 +1,230 @@
+<!--
+Impresion:
+    Tamaño A4
+    Margen de 1cm por lado
+    Sin encabezado ni pie
+    En posicion Horizontal
+--><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="helpers.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", evt => {
+            create_calendar();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div id="fecha-letra"></div>
+        <div id="logo"><img src="logo_cbkyt.jpg" alt="Centro Budista Kadampa" /></div>
+        <div id="info">
+            Teléfono: 771 117 5400 <br />
+            Correo Electrónico: info@meditarenpachuca.org <br />
+            Coscotitlán 205-A Fracc. Los Maestros, CP 42092, Pachuca, Hgo.
+        </div>
+    </header>
+    <table id="tbl-calendario">
+        <thead>
+            <tr>
+                <th class="encabezado-dia" scope="col">Lunes</th>
+                <th class="encabezado-dia" scope="col">Martes</th>
+                <th class="encabezado-dia" scope="col">Miércoles</th>
+                <th class="encabezado-dia" scope="col">Jueves</th>
+                <th class="encabezado-dia" scope="col">Viernes</th>
+                <th class="encabezado-dia" scope="col">Sábado</th>
+                <th class="encabezado-dia" scope="col">Domingo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container">
+                    <span class="dia-num"></span>
+                    <div class="eventos"></div>
+                </td>
+                <td class="dia-container" colspan="4">
+                    <span class="extra-notas">Notas:</span>
+                    <div class="eventos">
+                        <div style="width: 50%;">
+                            <p class="evento">
+                                C. Gozoso y C. Rápido: Sólo para personas con Iniciación del Trantra del Yoga Supremo
+                            </p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p class="evento">
+                                Clases en C. Doria:
+                                <ul>
+                                    <li>Martes 10:30 am</li>
+                                    <li>Sábados 5:00 pm </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

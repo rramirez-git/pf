@@ -33,6 +33,10 @@ div.contenido p {
 #tbl-repasos td, #tbl-repasos th {
     border: 1px solid silver;
     padding: 5px;
+    font-size: smaller;
+}
+#tbl-repasos td:nth-child(1), #tbl-repasos td:nth-child(2), #tbl-repasos td:nth-child(3) {
+    text-align: center;
 }
 #tbl-repasos tr.examen {
     background-color: silver;

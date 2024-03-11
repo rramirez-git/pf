@@ -72,6 +72,30 @@ section.bar-buttons a:first-child {
     border-radius: 5px 0 0 5px;
 }
 
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-bold {
+    font-weight: normal;
+}
+
+.no-italic {
+    font-style: normal;
+}
+
+.frase-francesa::before {
+    content: '<<';
+}
+
+.frase-francesa::after {
+    content: '>>';
+}
+
 @media (width <= 1000px) {
 
     div.contenido {

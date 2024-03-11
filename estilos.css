@@ -26,6 +26,9 @@ div.contenido p {
     border-collapse: collapse;
     border: 1px solid silver;
     empty-cells: show;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
 }
 #tbl-repasos th {
     background-color: rgb(131, 131, 131);
@@ -70,6 +73,30 @@ section.bar-buttons a:last-child {
 }
 section.bar-buttons a:first-child {
     border-radius: 5px 0 0 5px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-bold {
+    font-weight: normal;
+}
+
+.no-italic {
+    font-style: normal;
+}
+
+.frase-francesa::before {
+    content: '<<';
+}
+
+.frase-francesa::after {
+    content: '>>';
 }
 
 @media (width <= 1000px) {

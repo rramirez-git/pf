@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-days tool</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="helpers.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", evt => {
+            load_predays();
+        });
+    </script>
+</head>
+<body>
+    <h1>Pre-days Tool</h1>
+    <form method="get" onsubmit="load_vars_2_send()">
+        <p>
+            Mes:
+            <input type="month" name="month" id="month" />
+            <button>Obtener predays</button>
+        </p>
+        <input type="hidden" name="mes" id="mes" value="" />
+        <input type="hidden" name="anio" id="anio" value="" />
+    </form>
+    <h2 id="fecha-letra"></h2>
+    <h3>Días</h3>
+    <div id="dias"></div>
+    <h3>Actividades Regulares</h3>
+    <div id="actividades"></div>
+</body>
+</html>

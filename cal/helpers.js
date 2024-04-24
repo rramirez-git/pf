@@ -21,10 +21,11 @@ class Utils {
         };
         fmt = fmt.replace(/(M+|d+|h+|m+|s+|H+)/g, v =>
             ((v.length > 1 ? "0" : "") + z[v.slice(-1)]).slice(-2));
-        fmt = fmt.replace(/(X+|a+)/g, v => z[v.slice(-1)]);
-        return fmt.replace(
+        fmt = fmt.replace(
             /(y+)/g,
             v => date.getFullYear().toString().slice(-v.length));
+        fmt = fmt.replace(/(X+|a+)/g, v => z[v.slice(-1)]);
+        return fmt;
     }
     static get_query_var(name) {
         name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -37,11 +38,15 @@ class Utils {
         let month = date.toLocaleDateString('es-ES', {month: 'long'});
         return month.substr(0, 1).toUpperCase() + month.substr(1)
     }
+    static day_name(date) {
+        let month = date.toLocaleDateString('es-ES', {weekday: 'long'});
+        return month.substr(0, 1).toUpperCase() + month.substr(1)
+    }
     static get_date() {
         let month = parseInt("0" + Utils.get_query_var('mes'));
         let yr = parseInt("0" + Utils.get_query_var('anio'));
         let today = new Date();
-        return (yr && month)
+        return ((yr && month) || (yr && month === 0))
             ? new Date(parseInt(yr), parseInt(month), 1)
             : (today.getMonth() == 11
                 ? new Date(today.getFullYear() + 1, 1, 1)
@@ -61,6 +66,11 @@ class Utils {
         let resp = await fetch(`actividades/${date.getFullYear()}_${date.getMonth()}.json`);
         let json_resp = await resp.json();
         return json_resp;
+    }
+    static get_week_days(days, weekday) {
+        return days.filter(
+            date => date.getDay() == weekday
+            );
     }
 }
 
@@ -113,11 +123,11 @@ class Evts {
     }
 }
 
-let set_title = (date, selector) => {
+let set_title = (date, selector, pre_text="Cal-CBKYT-") => {
     let month = Utils.fmt_date(date, "X");
     let yr = Utils.fmt_date(date, "yyyy");
     document.querySelector(selector).textContent = `${month}, ${yr}`;
-    document.title = `Cal-CBKYT-${month.substr(0, 3)}-${yr.substr(-2)}`;
+    document.title = `${pre_text}${month.substr(0, 3)}-${yr.substr(-2)}`;
 }
 
 let create_calendar = async () => {
@@ -164,3 +174,47 @@ let create_calendar = async () => {
     });
 
 };
+
+let load_vars_2_send = () => {
+    let month = document.querySelector(`#month`).value;
+    document.querySelector(`#mes`).value = parseInt(month.substr(5)) - 1;
+    document.querySelector(`#anio`).value = parseInt(month.substr(0, 4));
+}
+
+let load_predays = () => {
+    let fecha = Utils.get_date();
+    set_title(fecha, `h2#fecha-letra`, "Predays-");
+    document.querySelector(`#month`).value = Utils.get_query_var("month");
+    let days = Evts.month_days(fecha);
+
+    let div = document.querySelector(`#dias`);
+    let cad = "";
+    for(let x = 0; x < 7; x++) {
+        let mdays = Utils.get_week_days(days, x);
+        cad += `<p>${mdays[0].getDay()} - ${Utils.day_name(mdays[0])}: ${JSON.stringify(mdays.map(date => date.getDate()))}<p>`;
+    }
+    div.innerHTML += cad;
+
+    div = document.querySelector(`#actividades`);
+    cad = "";
+    let actividades = [
+        {"actividad": "Programa General 10", "dias": [4]},
+        {"actividad": "Programa General 17", "dias": [2, 4]},
+        {"actividad": "Programa de Formación de Maestros", "dias": [6]},
+        {"actividad": "Programa Fundamental", "dias": [1, 3]},
+        {"actividad": "Gema", "dias": [1, 2, 3, 4]},
+        {"actividad": "Gema con Tsog", "dias": [0]},
+        {"actividad": "Paz Mundial", "dias": [0]},
+        {"actividad": "Camino Rápido", "dias": [2]},
+        {"actividad": "Camino Gozoso", "dias": [5]}
+    ]
+    for(let act of actividades) {
+        let mdays = Array()
+        for(let dy of act.dias) {
+            mdays = mdays.concat(Utils.get_week_days(days, dy))
+        }
+        mdays.sort((a, b) => a.getTime() - b.getTime());
+        cad += `<p>${act["actividad"]}: ${JSON.stringify(mdays.map(date => date.getDate()))}<p>`;
+    }
+    div.innerHTML += cad;
+}

@@ -1,0 +1,84 @@
+{
+    "pg": {"txt": "Programa General", "fechas": [
+        {"dia": [6,13,20,27], "hora": 10, "min": 0},
+        {"dia": [6,11,13,18,20,25,27], "hora": 19, "min": 0}
+    ]},
+    "pfm": {"txt": "Programa de Formación de Maestros", "fechas": [
+        {"dia": [1,8,15], "hora": 9, "min": 30}
+    ]},
+    "pf": {"txt": "Programa Fundamental", "fechas": [
+        {"dia": [3,5,10,12,17,19,24,26], "hora": 18, "min": 30}
+    ]},
+    "gema": {"txt": "Oraciones con Meditación", "fechas": [
+        {"dia": [3,5,6,11,12,13,17,18,19,20,24,25,26,27], "hora": 17, "min": 0}
+    ]},
+    "gematsog": {"txt": "Oraciones Cantadas y Meditación con Tsog", "fechas": [
+        {"dia": [2,9,16,30,29], "hora": 10, "min": 0}
+    ]},
+    "pazmundial": {"txt": "Meditación por la Paz y Enseñanza", "fechas": [
+        {"dia": [2,9,16,30], "hora": 12, "min": 0}
+    ]},
+    "cr": {"txt": "Camino Rápido", "fechas": [
+        {"dia": [7,14,28], "hora": 7, "min": 0}
+    ]},
+    "cg": {"txt": "Camino Gozoso", "fechas": [
+        {"dia": [11,18,25], "hora": 8, "min": 0}
+    ]},
+    "yd": {"txt": "Yoga de la Dakini", "fechas": [
+        {"dia": [], "hora": 8, "min": 0}
+    ]},
+    "conferencia": {"txt": "Conferencia: Cero Estrés", "fechas": [
+        {"dia": [7], "hora": 18, "min": 0}
+    ]},
+    "conferencia 2": {"txt": "La importancia de la meditación", "fechas": [
+        {"dia": [8], "hora": 17, "min": 0}
+    ]},
+    "bmedicina": {"txt": "Oraciones a Buda de la Medicina", "fechas": [
+        {"dia": [18], "hora": 10, "min": 0}
+    ]},
+    "tarav": {"txt": "Oraciones a Tara Verde", "fechas": [
+        {"dia": [11], "hora": 10, "min": 0}
+    ]},
+    "vajrasatva": {"txt": "Purificación con Vajrasatva", "fechas": [
+        {"dia": [], "hora": 12, "min": 0}
+    ]},
+    "ofrendage": {"txt": "Ofrenda al Guía Espiritual", "fechas": [
+        {"dia": [10, 4], "hora": 16, "min": 0},
+        {"dia": [25], "hora": 12, "min": 0}
+    ]},
+    "melodiosot": {"txt": "Melodioso Tambor", "fechas": [
+        {"dia": [], "hora": 10, "min": 0}
+    ]},
+    "preceptos": {"txt": "Preceptos", "fechas": [
+        {"dia": [15], "hora": 7, "min": 0}
+    ]},
+    "retiro": {"txt": "*** Iniciación: Encuentro con la Sabiduría ***", "fechas": [
+        {"dia": [21, 22, 23], "hora": 0, "min": 0}
+    ]},
+    "retiro s1": {"txt": "Introducción", "fechas": [
+        {"dia": [21], "hora": 19, "min": 0}
+    ]},
+    "retiro s2": {"txt": "Meditación", "fechas": [
+        {"dia": [22], "hora": 9, "min": 0}
+    ]},
+    "retiro s3": {"txt": "Bendiciones Iniciadoras", "fechas": [
+        {"dia": [22], "hora": 12, "min": 0}
+    ]},
+    "retiro s4": {"txt": "Primer Enseñanza", "fechas": [
+        {"dia": [22], "hora": 16, "min": 0}
+    ]},
+    "retiro gs": {"txt": "Gema con Tsog", "fechas": [
+        {"dia": [22], "hora": 19, "min": 0}
+    ]},
+    "retiro s5": {"txt": "Segunda enseñanza", "fechas": [
+        {"dia": [23], "hora": 10, "min": 0}
+    ]},
+    "retiro s6": {"txt": "Practica con Meditación", "fechas": [
+        {"dia": [23], "hora": 13, "min": 0}
+    ]},
+    "retiro 2 s1": {"txt": "Retiro de Fe", "fechas": [
+        {"dia": [4], "hora": 10, "min": 0},
+        {"dia": [4], "hora": 12, "min": 0},
+        {"dia": [4], "hora": 19, "min": 0}
+    ]}
+}

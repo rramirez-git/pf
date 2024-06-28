@@ -19,7 +19,7 @@
         {"dia": [18,25], "hora": 12, "min": 0}
     ]},
     "cr": {"txt": "Camino Rápido", "fechas": [
-        {"dia": [], "hora": 7, "min": 0}
+        {"dia": [23, 30], "hora": 7, "min": 0}
     ]},
     "cg": {"txt": "Camino Gozoso", "fechas": [
         {"dia": [20,27], "hora": 8, "min": 0}

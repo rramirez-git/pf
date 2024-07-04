@@ -45,6 +45,10 @@ div.contenido p {
     background-color: silver;
 }
 
+#tbl-repasos.normal-tbl td, #tbl-repasos.normal-tbl th {
+    text-align: unset;
+}
+
 section.bar-buttons {
     --color-oscuro: rgb(100, 100, 100);
     --color-claro: silver;
@@ -97,6 +101,10 @@ section.bar-buttons a:first-child {
 
 .frase-francesa::after {
     content: '>>';
+}
+
+.line-space {
+    margin-bottom: 0.5rem;
 }
 
 @media (width <= 1000px) {

@@ -4,7 +4,7 @@
         {"dia": [13,15,20,22,27,29], "hora": 19, "min": 0}
     ]},
     "pfm": {"txt": "Programa de Formación de Maestros", "fechas": [
-        {"dia": [17,24,31], "hora": 9, "min": 30}
+        {"dia": [17,24], "hora": 9, "min": 30}
     ]},
     "pf": {"txt": "Programa Fundamental", "fechas": [
         {"dia": [14,19,21,26,28], "hora": 18, "min": 30}
@@ -28,7 +28,7 @@
         {"dia": [], "hora": 8, "min": 0}
     ]},
     "conferencia": {"txt": "Conferencia: Todo sobre Karma", "fechas": [
-        {"dia": [30], "hora": 18, "min": 0}
+        {"dia": [23], "hora": 18, "min": 0}
     ]},
     "bmedicina": {"txt": "Oraciones a Buda de la Medicina", "fechas": [
         {"dia": [20], "hora": 10, "min": 0}
@@ -53,5 +53,11 @@
     ]},
     "retiro": {"txt": "*** Festival de Verano ***", "fechas": [
         {"dia": [1,2,3,4,5,6,7,8,9,10,11], "hora": 0, "min": 0}
+    ]},
+    "retiro 2": {"txt": "Charla con Guen Sangden: Cómo solucionar nuestro problema del enojo", "fechas": [
+        {"dia": [30], "hora": 19, "min": 0}
+    ]},
+    "retiro 3": {"txt": "Curso con Guen Sangden: ¿Cómo existe el mundo? ¿Cómo existo yo?", "fechas": [
+        {"dia": [31], "hora": 17, "min": 0}
     ]}
 }

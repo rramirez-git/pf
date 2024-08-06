@@ -107,6 +107,23 @@ section.bar-buttons a:first-child {
     margin-bottom: 0.5rem;
 }
 
+figure {
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+figure img.book-fig {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+figure figcaption {
+    font-style: italic;
+    font-size: 85%;
+    text-align: center;
+}
+
 @media (width <= 1000px) {
 
     div.contenido {

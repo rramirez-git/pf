@@ -1,0 +1,58 @@
+{
+    "pg": {"txt": "Programa General", "fechas": [
+        {"dia": [3,10,17,24,31], "hora": 10, "min": 0},
+        {"dia": [1,3,8,10,15,17,22,24,29,31], "hora": 19, "min": 0}
+    ]},
+    "pfm": {"txt": "Programa de Formación de Maestros", "fechas": [
+        {"dia": [5,12,19,26], "hora": 9, "min": 30}
+    ]},
+    "pf": {"txt": "Programa Fundamental", "fechas": [
+        {"dia": [2,7,9,14,16,21,23,28,30], "hora": 18, "min": 30}
+    ]},
+    "gema": {"txt": "Oraciones con Meditación", "fechas": [
+        {"dia": [1,2,3,7,8,9,10,14,15,16,17,21,22,23,24,28,29,30,31], "hora": 17, "min": 0}
+    ]},
+    "gematsog": {"txt": "Oraciones Cantadas y Meditación con Tsog", "fechas": [
+        {"dia": [6,13,20,27], "hora": 10, "min": 0}
+    ]},
+    "pazmundial": {"txt": "Meditación por la Paz y Enseñanza", "fechas": [
+        {"dia": [6,13,20,27], "hora": 12, "min": 0}
+    ]},
+    "cr": {"txt": "Camino Rápido", "fechas": [
+        {"dia": [], "hora": 7, "min": 0}
+    ]},
+    "cg": {"txt": "Camino Gozoso", "fechas": [
+        {"dia": [], "hora": 8, "min": 0}
+    ]},
+    "yd": {"txt": "Yoga de la Dakini", "fechas": [
+        {"dia": [], "hora": 8, "min": 0}
+    ]},
+    "conferencia": {"txt": "Conferencia: ", "fechas": [
+        {"dia": [], "hora": 18, "min": 0}
+    ]},
+    "bmedicina": {"txt": "Oraciones a Buda de la Medicina", "fechas": [
+        {"dia": [], "hora": 10, "min": 0}
+    ]},
+    "bmedicina 2": {"txt": "Ceremonia de Poua", "fechas": [
+        {"dia": [], "hora": 10, "min": 0}
+    ]},
+    "tarav": {"txt": "Oraciones a Tara Verde", "fechas": [
+        {"dia": [], "hora": 10, "min": 0}
+    ]},
+    "vajrasatva": {"txt": "Purificación con Vajrasatva", "fechas": [
+        {"dia": [], "hora": 10, "min": 0}
+    ]},
+    "ofrendage": {"txt": "Ofrenda al Guía Espiritual", "fechas": [
+        {"dia": [10], "hora": 9, "min": 0},
+        {"dia": [25], "hora": 9, "min": 0}
+    ]},
+    "melodiosot": {"txt": "Melodioso Tambor", "fechas": [
+        {"dia": [29], "hora": 10, "min": 0}
+    ]},
+    "preceptos": {"txt": "Preceptos", "fechas": [
+        {"dia": [15], "hora": 7, "min": 0}
+    ]},
+    "retiro": {"txt": "*** RETIRO ***", "fechas": [
+        {"dia": [], "hora": 0, "min": 0}
+    ]}
+}

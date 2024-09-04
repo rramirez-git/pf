@@ -1,0 +1,26 @@
+metadata:
+  identifier: retiro_lamrim_2024
+  title: Lamrim - Etapas del Camino al a la Iluminación (Retiro)
+  language: es
+  authors: 
+    - Gueshe Kelsang Gyatso
+
+cover: gsbh.webp
+
+chapters:
+  - title: Meditaciones
+    content:
+      - lamrim_01_meditaciones.html
+  - title: OEC → Oración de las Etapas del Camino, según Esencia de Buena Fortuna
+    content:
+      - lamrim_02_oec.html
+  - title: OGP → OEC según Ofrenda al Guía Espiritual
+    content:
+      - lamrim_03_ogp.html
+  - title: SSTL → Oración de Súplica para la Práctica del Lamrim, el Loyong, la Etapa de Generación y la Etapa de Consumación según Súplica al Señor de Todos los Linajes
+    content:
+      - lamrim_04_sstl.html
+
+images:
+  - file: gsbh.webp
+    media_type: image/webp

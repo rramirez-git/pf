@@ -31,6 +31,7 @@ def add_chapter(book, chapter, chapter_number, language):
         str(file_content(os.path.join('assets', 'text', file)))
         for file in chapter['content']
         ])
+    ch.add_link(href='style/chapter.css', rel='stylesheet', type='text/css')
     book.add_item(ch)
     return xhtml_file, chapter['title'], ch
 
@@ -62,12 +63,16 @@ if __name__ == "__main__":
             esquema['cover'],
             file_content(os.path.join('assets', 'img', esquema['cover']), 'rb'))
 
+    ebook.add_item(epub.EpubItem(
+        'style_ch', 'style/chapter.css', 'text/css',
+        file_content(os.path.join('assets', 'css', 'styles.css'))))
+
     capitulos = [
-        add_chapter(ebook, capitulo, n, idioma) 
+        add_chapter(ebook, capitulo, n, idioma)
         for n, capitulo in enumerate(esquema['chapters'])]
     [add_image(ebook, imagen) for imagen in esquema['images']]
     ebook.toc = [
-        epub.Link(capitulo[0], capitulo[1], capitulo[0]) 
+        epub.Link(capitulo[0], capitulo[1], capitulo[0])
         for capitulo in capitulos]
 
     epub_file_name = file[:-4] + ".epub"
@@ -81,5 +86,3 @@ if __name__ == "__main__":
         ebook.spine = ['nav', ] + [capitulo[2] for capitulo in capitulos]
 
     epub.write_epub(epub_file_name, ebook, {})
-
-

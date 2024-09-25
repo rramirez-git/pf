@@ -5,16 +5,27 @@ metadata:
   authors:
     - Compilado
 
-cover: 44_promesas_BM.png
+cover: mandalas/cover.png
 
 chapters:
-  - title: Las cuarenta y cuatro promesas de los Budas de la Medicina
+  - title: Ofrecimiento del Mandala de Treinta y Siete Puntos
     content:
-      - 44pbm/01_es.html
-  - title: 44 Promises of the Medicine Buddhas
+      - mandalas/01_37p.html
+  - title: Ofrecimiento del Mandala de Siete Puntos
     content:
-      - 44pbm/02_en.html
+      - mandalas/02_7p.html
+  - title: Mudra con las Manos
+    content:
+      - mandalas/03_mudra.html
 
 images:
-  - file: 44_promesas_BM.png
+  - file: mandalas/Mandalas-37pts_01.png
+    media_type: image/png
+  - file: mandalas/Mandalas-37pts_02.png
+    media_type: image/png
+  - file: mandalas/Mandalas-37pts_03.png
+    media_type: image/png
+  - file: mandalas/Mandalas-7pts.png
+    media_type: image/png
+  - file: mandalas/Mandalas-Mudra.png
     media_type: image/png

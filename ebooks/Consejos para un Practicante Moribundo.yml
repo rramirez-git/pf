@@ -1,0 +1,21 @@
+metadata:
+  identifier: consejos_para_un_practicante_moribundo
+  title: Consejos para un Practicante Moribundo
+  language: es
+  authors:
+    - Dodrupchen Jigme Tenpe Ñima
+
+cover: ConsejosPracticanteMoribundo_cover.png
+
+chapters:
+  - title: Consejos para un Practicante Moribundo
+    content:
+      - ConsejosMoribundo/01.html
+
+images:
+  - file: ConsejosPracticanteMoribundo_cover.png
+    media_type: image/png
+  - file: cc/by_nc.png
+    media_type: image/png
+  - file: editorial/lotsawa.png
+    media_type: image/png

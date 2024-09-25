@@ -1,0 +1,73 @@
+metadata:
+  identifier: los_cinco_grandes_mantras_para_liberar_a_los_seres_de_los_reinos_inferiores_y_los_diez_mantras_poderosos_para_ayudar_a_los_seres_especialmente_en_el_momento_de_la_muerte_con_sus_beneficios
+  title: Los cinco grandes mantras para liberar a los seres de los reinos inferiores y los diez mantras poderosos para ayudar a los seres, especialmente en el momento de la muerte con sus beneficios
+  language: es
+  authors:
+    - Lama Zopa Rimpoché
+
+cover: mantras/MantrasPoderosos_cover.png
+
+chapters:
+  - title: Portada (Original)
+    content:
+      - mantras/01_portada.html
+  - title: Informacion (Original)
+    content:
+      - mantras/02_informacion.html
+  - title: Agradecimientos
+    content:
+      - mantras/03_agradecimientos.html
+  - title: Los Cinco Grandes Mantras
+    content:
+      - mantras/04_5_mantras.html
+  - title: Diez Mantras Poderosos
+    content:
+      - mantras/05_10_mantras.html
+  - title: Otros Mantras Recomendados
+    content:
+      - mantras/06_otros_mantras.html
+  - title: Lámina de Mantras para Ayudar a los que Han Fallecido
+    content:
+      - mantras/07_mantras_fallecidos.html
+  - title: Beneficios Generales de los Mantras Poderosos
+    content:
+      - mantras/08_beneficios.html
+  - title: Créditos
+    content:
+      - mantras/09_creditos.html
+  - title: Acercando el Budismo a la Comunidad de Habla Hispana
+    content:
+      - mantras/10_acecando.html
+  - title: Cuidado de los Libros de Dharma
+    content:
+      - mantras/11_cuidado_libros.html
+
+images:
+  - file: mantras/MantrasPoderosos_cover.png
+    media_type: image/png
+  - file: mantras/bmaitreya.png
+    media_type: image/png
+  - file: mantras/bmitrugpa.png
+    media_type: image/png
+  - file: mantras/chenrezig1000b.png
+    media_type: image/png
+  - file: mantras/fallecidos.png
+    media_type: image/png
+  - file: mantras/img1.png
+    media_type: image/png
+  - file: mantras/img2.png
+    media_type: image/png
+  - file: mantras/img3.png
+    media_type: image/png
+  - file: mantras/kunrig.png
+    media_type: image/png
+  - file: mantras/milarepa.png
+    media_type: image/png
+  - file: mantras/namgyalma.png
+    media_type: image/png
+  - file: mantras/padmasambhava.png
+    media_type: image/png
+  - file: mantras/soloparamirar.png
+    media_type: image/png
+  - file: editorial/ediciones_mahayana.png
+    media_type: image/png

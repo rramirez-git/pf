@@ -1,0 +1,21 @@
+metadata:
+  identifier: desprenderse_de_los_cuatro_apegos
+  title: Desprenderse de los Cuatro Apegos
+  language: es
+  authors:
+    - Jetsün Drakpa Gyaltsen
+
+cover: DesprenderseCuatroApegos_cover.png
+
+chapters:
+  - title: Desprenderse de los Cuatro Apegos
+    content:
+      - Desprenderse4Apegos/01.html
+
+images:
+  - file: DesprenderseCuatroApegos_cover.png
+    media_type: image/png
+  - file: cc/by_nc.png
+    media_type: image/png
+  - file: editorial/lotsawa.png
+    media_type: image/png

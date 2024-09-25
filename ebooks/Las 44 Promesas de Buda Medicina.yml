@@ -1,0 +1,20 @@
+metadata:
+  identifier: 44_promesas_buda_medicina
+  title: Las cuarenta y cuatro promesas de los Budas de la Medicina
+  language: es
+  authors:
+    - Dewang
+
+cover: 44_promesas_BM.png
+
+chapters:
+  - title: Las cuarenta y cuatro promesas de los Budas de la Medicina
+    content:
+      - 44pbm/01_es.html
+  - title: 44 Promises of the Medicine Buddhas
+    content:
+      - 44pbm/02_en.html
+
+images:
+  - file: 44_promesas_BM.png
+    media_type: image/png

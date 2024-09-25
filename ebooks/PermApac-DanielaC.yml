@@ -1,0 +1,22 @@
+metadata:
+  identifier: permanencia_apacible_daniela_chamorro
+  title: Permanencia Apacible
+  language: es
+  authors:
+    - Gushe Kelsang Gyatsi
+
+cover: pa-dc/cover.png
+
+chapters:
+  - title: Las Nueve Permanencias Mentales
+    content:
+      - pa-dc/01.html
+      - pa-dc/01_01.html
+  - title: Los cinco obstáculos que hemos de abandonar y Los ocho oponentes contra los cinco obstáculos
+    content:
+      - pa-dc/02.html
+      - pa-dc/02_01.html
+
+images:
+  - file: pa-dc/cover.png
+    media_type: image/png

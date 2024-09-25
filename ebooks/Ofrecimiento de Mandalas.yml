@@ -1,0 +1,31 @@
+metadata:
+  identifier: ofrecimiento_de_mandalas
+  title: Ofrecimiento de Mandalas
+  language: es
+  authors:
+    - Compilado
+
+cover: mandalas/cover.png
+
+chapters:
+  - title: Ofrecimiento del Mandala de Treinta y Siete Puntos
+    content:
+      - mandalas/01_37p.html
+  - title: Ofrecimiento del Mandala de Siete Puntos
+    content:
+      - mandalas/02_7p.html
+  - title: Mudra con las Manos
+    content:
+      - mandalas/03_mudra.html
+
+images:
+  - file: mandalas/Mandalas-37pts_01.png
+    media_type: image/png
+  - file: mandalas/Mandalas-37pts_02.png
+    media_type: image/png
+  - file: mandalas/Mandalas-37pts_03.png
+    media_type: image/png
+  - file: mandalas/Mandalas-7pts.png
+    media_type: image/png
+  - file: mandalas/Mandalas-Mudra.png
+    media_type: image/png

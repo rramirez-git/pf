@@ -1,0 +1,20 @@
+metadata:
+  identifier: liberation_from_sorrow
+  title: Liberation from Sorrow
+  language: en
+  authors:
+    - Gueshe Kelsang Gyatso
+
+cover: LiberationFromSorrow_cover.png
+
+chapters:
+  - title: Introducción
+    content:
+      - LiberationFromSorrow/01.html
+  - title: Liberation from Sorrow
+    content:
+      - LiberationFromSorrow/02.html
+
+images:
+  - file: LiberationFromSorrow_cover.png
+    media_type: image/png

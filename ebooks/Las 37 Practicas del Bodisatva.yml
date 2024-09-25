@@ -1,0 +1,17 @@
+metadata:
+  identifier: 37_practicas_bodisatva
+  title: Las 37 Practicas del Bodisatva
+  language: es
+  authors:
+    - Thogme
+
+cover: 37PracticasBodhisatva_cover.png
+
+chapters:
+  - title: Las 37 Practicas del Bodisatva
+    content:
+      - 37PracticasBodhisatva/01.html
+
+images:
+  - file: 37PracticasBodhisatva_cover.png
+    media_type: image/png

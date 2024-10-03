@@ -72,11 +72,19 @@ section.bar-buttons a:hover {
     background-color: var(--color-oscuro);
     color: var(--color-claro);
 }
+section.bar-buttons a:first-child {
+    border-radius: 0;
+}
 section.bar-buttons a:last-child {
     border-radius: 0 5px 5px 0;
 }
+section.bar-buttons a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 section.bar-buttons a:first-child {
-    border-radius: 5px 0 0 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .bold {

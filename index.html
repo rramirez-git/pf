@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resumen.</title>
     <link rel="stylesheet" href="estilos.css">
+    <style type="text/css">
+        .cards {
+            margin: 0 auto;
+            display: grid;
+            gap: 1rem;
+        }
+        @media (min-width: 600px) {
+            .cards { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (min-width: 900px) {
+            .cards { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (min-width: 1200px) {
+            .cards { grid-template-columns: repeat(5, 1fr); }
+        }
+    </style>
 </head>
 <body>
     <h1>Resumen</h1>
@@ -47,58 +63,76 @@
 
     <h2>EBooks</h2>
 
-    <ul>
-        <li>
-            <a href="ebooks/Consejos para un Practicante Moribundo.epub">
-                Consejos para un Practicante Moribundo
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Las 37 Practicas del Bodisatva.epub">
-                Las 37 Practicas del Bodisatva
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Liberation from Sorrow.epub">
-                Liberation from Sorrow
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Ofrecimiento de Mandalas.epub">
-                Ofrecimiento de Mandalas
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Retiro de Lamrim.epub">
-                Retiro de Lamrim
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Desprenderse de los Cuatro Apegos.epub">
-                Desprenderse de los Cuatro Apegos
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Las 44 Promesas de Buda Medicina.epub">
-                Las 44 Promesas de Buda Medicina
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Mantras Poderosos.epub">
-                Mantras Poderosos
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/PermApac-DanielaC.epub">
-                PermApac-DanielaC
-            </a>
-        </li>
-        <li>
-            <a href="ebooks/Vida y Enseñanza de Buda.epub">
-                Vida y Enseñanza de Buda
-            </a>
-        </li>
-    </ul>
+    <div class="cards">
+        <div class="card">
+            <h5>A</h5>
+            <ul>
+                <li><a href="ebooks/Atisha Introducción a las Dos Verdades.epub">Atisha: Introducción a las Dos Verdades</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>C</h5>
+            <ul>
+                <li><a href="ebooks/Chandrakirti Introduccion al Camino del Medio.epub">Chandrakirti: Introducción al Camino del Medio</a></li>
+                <li><a href="ebooks/Consejos para un Practicante Moribundo.epub">Consejos para un Practicante Moribundo</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>D</h5>
+            <ul>
+                <li><a href="ebooks/Desprenderse de los Cuatro Apegos.epub">Desprenderse de los Cuatro Apegos</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>L</h5>
+            <ul>
+                <li><a href="ebooks/Las 37 Practicas del Bodisatva.epub">Las 37 Practicas del Bodisatva</a></li>
+                <li><a href="ebooks/Las 44 Promesas de Buda Medicina.epub">Las 44 Promesas de Buda Medicina</a></li>
+                <li><a href="ebooks/Liberation from Sorrow.epub">Liberation from Sorrow</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>M</h5>
+            <ul>
+                <li><a href="ebooks/Maitreya Distincion entre Fenomeno y la Naturaleza de los Fenomenos.epub">Maitreya: Distincion entre Fenomeno y la Naturaleza de los Fenomenos</a></li>
+                <li><a href="ebooks/Mantras Poderosos.epub">Mantras Poderosos</a></li>
+                <li><a href="ebooks/Meeting the Buddhas.epub">Meeting the Buddhas</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>N</h5>
+            <ul>
+                <li><a href="ebooks/Nagarjuna Versos Fundamento del Camino del Medio.epub">Nagarjuna: Versos Fundamento del Camino del Medio</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>O</h5>
+            <ul>
+                <li><a href="ebooks/Ofrecimiento de Mandalas.epub">Ofrecimiento de Mandalas</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>P</h5>
+            <ul>
+                <li><a href="ebooks/PermApac-DanielaC.epub">PermApac-DanielaC</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>R</h5>
+            <ul>
+                <li><a href="ebooks/Retiro de Lamrim.epub">Retiro de Lamrim</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h5>V</h5>
+            <ul>
+                <li><a href="ebooks/Vida y Enseñanza de Buda.epub">Vida y Enseñanza de Buda</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
 
     <h2>De otros temas y cosas...</h2>
 

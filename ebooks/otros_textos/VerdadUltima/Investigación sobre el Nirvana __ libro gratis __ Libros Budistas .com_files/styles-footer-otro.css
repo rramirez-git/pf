@@ -1,0 +1,9 @@
+/* CSS for other footer position 
+ver 2*/
+
+#footer { margin-top:15px}
+#footer .cornr_top div { background: url(corn_tl_dBgB.gif) no-repeat top left; }
+#footer .cornr_top {  background: url(corn_tr_dBgB.gif) no-repeat top right; }
+#footer .cornr_bot div { background: url(corn_bl_dBgB.gif) no-repeat bottom left; }
+#footer .cornr_bot { background: url(corn_br_dBgB.gif) no-repeat bottom right; }
+

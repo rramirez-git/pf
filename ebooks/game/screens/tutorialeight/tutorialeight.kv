@@ -1,0 +1,92 @@
+<TutorialEight>
+
+    MDFloatLayout:
+        size: root.width, root.height
+        md_bg_color: 'white'
+
+        MDButton:
+            style: 'elevated'
+            pos_hint: {'center_x': 0.25, 'center_y': 0.85}
+
+            MDButtonText:
+                text: 'elevated'
+
+        MDButton:
+            style: 'filled'
+            pos_hint: {'center_x': 0.5, 'center_y': 0.85}
+
+            MDButtonText:
+                text: 'filled'
+
+        MDButton:
+            style: 'tonal'
+            pos_hint: {'center_x': 0.75, 'center_y': 0.85}
+
+            MDButtonText:
+                text: 'tonal'
+
+        MDButton:
+            style: 'outlined'
+            pos_hint: {'center_x': 0.25, 'center_y': 0.7}
+
+            MDButtonText:
+                text: 'outlined'
+
+        MDButton:
+            style: 'text'
+            pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+
+            MDButtonText:
+                text: 'text'
+
+        MDButton:
+            style: 'elevated'
+            pos_hint: {'center_x': 0.75, 'center_y': 0.7}
+            theme_bg_color: 'Custom'
+            md_bg_color: 'skyblue'
+            radius: [0, 5, 10, 15]
+
+            MDButtonIcon:
+                icon: 'home'
+                theme_icon_color: 'Custom'
+                icon_color: 'red'
+
+            MDButtonText:
+                text: 'elevated'
+                theme_text_color: 'Custom'
+                text_color: 'black'
+
+        MDIconButton:
+            style: 'standard'
+            icon: 'thumb-up'
+            pos_hint: {'center_x': 0.2, 'center_y': 0.5}
+
+        MDIconButton:
+            style: 'filled'
+            icon: 'thumb-up'
+            pos_hint: {'center_x': 0.4, 'center_y': 0.5}
+
+        MDIconButton:
+            style: 'outlined'
+            icon: 'thumb-up'
+            pos_hint: {'center_x': 0.6, 'center_y': 0.5}
+
+        MDIconButton:
+            style: 'tonal'
+            icon: 'thumb-up'
+            pos_hint: {'center_x': 0.8, 'center_y': 0.5}
+
+        MDFabButton:
+            style: 'small'
+            icon: 'plus'
+            pos_hint: {'center_x': 0.2, 'center_y': 0.3}
+
+        MDFabButton:
+            style: 'standard'
+            icon: 'plus'
+            pos_hint: {'center_x': 0.5, 'center_y': 0.3}
+
+        MDFabButton:
+            style: 'large'
+            icon: 'plus'
+            pos_hint: {'center_x': 0.8, 'center_y': 0.3}

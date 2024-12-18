@@ -1,0 +1,114 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
+    text-indent: unset;
+}
+
+.centro {
+    text-align: center;
+}
+
+.cita {
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+figure {
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+figure figcaption {
+    font-style: italic;
+    font-size: 85%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    width: 95%;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+table {
+    font-size: 75%;
+    border-collapse: collapse;
+    border: 1px solid silver;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+table th {
+    background-color: rgb(131, 131, 131);
+}
+
+table td, table th {
+    border: solid 1px silver;
+    padding: 5px;
+}
+
+.c100p {
+    width: 100%;
+}
+
+.c75p {
+    width: 75%;
+}
+
+.c50p {
+    width: 50%;
+}
+
+.c25p {
+    width: 25%;
+}
+
+.two-cols {
+    column-count: 2;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-bold {
+    font-weight: normal;
+}
+
+.no-italic {
+    font-style: normal;
+}
+
+.frase-francesa::before {
+    content: '<<';
+}
+
+.frase-francesa::after {
+    content: '>>';
+}
+
+.line-space {
+    margin-bottom: 0.5rem;
+}

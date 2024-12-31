@@ -29,10 +29,18 @@ def save_images(pages, base_name):
 pdf_file = sys.argv[1]
 file_base_name = "".join(pdf_file.split(".")[:-1])
 
+try:
+    work_mode = sys.argv[2]     # Modes: TEXT PAGE IMG
+except IndexError:
+    work_mode = "TEXT"
+
 pdf_stream = pdfplumber.open(pdf_file)
 
-extract_text(pdf_stream.pages, file_base_name)
-#page_images(pdf_stream.pages, file_base_name)
-#save_images(pdf_stream.pages, file_base_name)
+if "TEXT" in work_mode:
+    extract_text(pdf_stream.pages, file_base_name)
+if "PAGE" in work_mode:
+    page_images(pdf_stream.pages, file_base_name)
+if "IMG" in work_mode:
+    save_images(pdf_stream.pages, file_base_name)
 
 pdf_stream.close()

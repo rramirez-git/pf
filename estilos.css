@@ -157,3 +157,24 @@ figure figcaption {
     }
 
 }
+
+.text-end {
+    text-align: end;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.cita {
+    padding-left: 2rem;
+    padding-right: 1rem;
+}

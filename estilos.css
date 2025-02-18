@@ -178,3 +178,7 @@ figure figcaption {
     padding-left: 2rem;
     padding-right: 1rem;
 }
+
+.new-page {
+    page-break-before: always;
+}

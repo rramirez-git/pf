@@ -182,3 +182,7 @@ figure figcaption {
 .new-page {
     page-break-before: always;
 }
+
+.c50p {
+    width: 50%;
+}

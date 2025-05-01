@@ -22,6 +22,7 @@ div.contenido p {
     text-align: justify;
 }
 
+table.contenido,
 #tbl-repasos {
     border-collapse: collapse;
     border: 1px solid silver;
@@ -30,17 +31,23 @@ div.contenido p {
     width: 100%;
     overflow-x: auto;
 }
+
+table.contenido th,
 #tbl-repasos th {
     background-color: rgb(131, 131, 131);
 }
+
+table.contenido td, table.contenido th,
 #tbl-repasos td, #tbl-repasos th {
     border: 1px solid silver;
     padding: 5px;
     font-size: smaller;
 }
+
 #tbl-repasos td:nth-child(1), #tbl-repasos td:nth-child(2), #tbl-repasos td:nth-child(3) {
     text-align: center;
 }
+
 #tbl-repasos tr.examen {
     background-color: silver;
 }
@@ -126,6 +133,7 @@ figure img.book-fig {
     margin: auto;
 }
 
+table.contenido caption,
 figure figcaption {
     font-style: italic;
     font-size: 85%;
@@ -154,6 +162,10 @@ figure figcaption {
 
     section.bar-buttons {
         display: none;
+    }
+
+    table.contenido{
+        overflow-x: unset;
     }
 
 }
